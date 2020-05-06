@@ -1,0 +1,4 @@
+person = {name: 'Bob', height: '6 ft', weight: '160', hair: 'Brown'}
+person.each do |key,value| 
+  puts "#{key} is #{value}"
+end
